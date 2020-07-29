@@ -13,13 +13,15 @@
 	<main class="page contact-us-page">
 	<section class="clean-block clean-form dark">
 	<div class="container">
-		<h2 style="text-align:center; margin-top:30px; color:white;">Here is your secret message:</h2>
+		<h2 style="text-align:center; margin-top:30px; color:white;">Here is your message:</h2>
 			<?php
 
 			//Get "id" from the URL
 			$ident = $_GET['ident'];
 
 			//Connect to database
+			//FILL THESE WITH THE CREDENTIALS OF OUR OWN DATABASE
+
 			$host = 'DATABASE_HOST';
 			$dbuser = 'DATABASE_USER';
 			$dbpass = 'DATABASE_PASSWORD';

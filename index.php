@@ -41,6 +41,7 @@
 			}
 
 			//Create database-connection
+			//FILL THESE WITH THE CREDENTIALS OF YOUR OWN DDATABASE
 			if($message != ''){
 			$host = 'DATABASE_HOST';
 			$dbuser = 'DATABASE_USERNAME';
