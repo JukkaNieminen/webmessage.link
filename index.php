@@ -33,7 +33,7 @@
 			$vistime = 1;
 
 			//Get values from form
-			$message = $_GET['message'];
+			$message = validateInput($_GET['message']);
 			$vistime = $_GET['vistime'];
 
 			if(empty($vistime)){
@@ -75,7 +75,16 @@
 			echo '<br><h4 style="color:white;">Copy and paste this link somewhere safe, you cannot access it later from this website!</h3>';
 			echo '</a><br><h3 style="word-wrap: break-word;color:white;">'.$linkTxt.'</h3>';
 			}
-			else{}
+
+			function validateInput($text){
+				$text = trim($text);
+				$text = stripslashes($text);
+				$text = htmlspecialchars($text);
+				return $text;
+			
+			}
+
+
 ?>
 		</form>
             </div>
