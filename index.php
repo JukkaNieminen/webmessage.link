@@ -86,8 +86,9 @@
 
 
 ?>
-		</form>
-            </div>
+		</form>    
+		<a style="word-wrap: break-word; font-size: 2.0em;" href="privacy.html">Privacy policy</a>
+		</div>
         </section>
     </main>
 </body>
